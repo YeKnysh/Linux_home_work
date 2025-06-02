@@ -34,7 +34,7 @@ Each directory corresponds to a specific homework task:
 - Some tasks were submitted as pull requests to the main course repository.
 - Scripts are tested and structured as per assignment instructions.
 
-## 📎 Author
+## Author
 
 **Yevhen Knysh**  
 This repository is part of the ITCH Linux & Git training program.
