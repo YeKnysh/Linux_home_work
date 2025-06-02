@@ -1,0 +1,20 @@
+  336  cd :
+  337  git clone https://github.com/YeKnysh/learning_git.git
+  338  cd learning_git
+  339  mkdir 210225-ptm
+  340  cd 210225-ptm
+  341  echo "Hello from Yevhen" > yevhen.txt
+  342  git checkout -b yevhen-hw14
+  343  git add 210225-ptm/yevhen.txt
+  344  git commit -m "Добавлен файл yevhen.txt в папку 210225-ptm"
+  345  git push origin yevhen-hw14
+  346  mv yevhen.txt 210225-ptm/
+  347  git add 210225-ptm/yevhen.txt
+  348  git commit -m "Добавлен файл yevhen.txt в папку 210225-ptm"
+  349  git push origin yevhen-hw14
+  350  mkdir 210225-ptm
+  351  mv yevhen.txt 210225-ptm/
+  352  git add 210225-ptm/yevhen.txt
+  353  git commit -m "Добавлен файл yevhen.txt в папку 210225-ptm"
+  354  git push origin yevhen-hw14
+  355  history | tail -n 20 > last_commands.txt
