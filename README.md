@@ -4,7 +4,7 @@
 
 This repository contains all Linux-related homework assignments from the IT Career Hub course, organized by task number.
 
-## 📁 Structure
+## Structure
 
 Each directory corresponds to a specific homework task:
 
@@ -28,7 +28,7 @@ Each directory corresponds to a specific homework task:
 - `hw18/` – Homework 18 – consolidated repository structure
 - `hw19/` – Homework 19
 
-## 🔧 Notes
+## Notes
 
 - All scripts are written in Bash and intended to run on Linux systems or the jslinux sandbox.
 - Some tasks were submitted as pull requests to the main course repository.
