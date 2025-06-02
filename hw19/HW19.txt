@@ -1,0 +1,23 @@
+Команды:
+cd /opt/210225-ptm/Yevhen
+mkdir dir_source dir_target
+cd dir_source
+for i in {1..100}; do touch $RANDOM; done
+
+Скрин:
+#!/bin/bash
+
+cd /opt/210225-ptm/Yevhen/dir_source
+
+for file in *
+do
+    if [[ "$file" =~ ^[0-9]+$ ]]; then
+        if (( file % 2 == 0 )); then
+            mv "$file" ../dir_target/
+        fi
+    fi
+done
+
+Запуск:
+chmod +x ../move_even.sh
+../move_even.sh
